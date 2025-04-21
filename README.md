@@ -1,68 +1,84 @@
-# Mind-Craft: An Interactive Learning Platform with Virtual Pet Companion 🎓🐾
-## Overview
-Mind-Craft is a unique educational mobile application that combines interactive learning with virtual pet care. Built with React Native and Expo, it offers a gamified learning experience where users can create courses, track their progress, and take care of a virtual pet that grows alongside their educational journey.
+# Mind-Craft Learning Platform
 
-## Features 🌟
-### Learning Features
-- Course Creation : Create and manage personalized learning courses
-- Interactive Learning : Engage with various learning materials including:
-  - Flashcards
-  - Quizzes
-  - Question & Answer sessions
-- Progress Tracking : Monitor your learning progress with visual indicators
-- Practice Sections : Dedicated areas for practicing different topics
-- Points System : Earn points as you complete chapters and courses
-### Virtual Pet System 🐾
-- Pet Care : Feed, play, and interact with your virtual pet
-- Growth System : Watch your pet grow as you progress in your courses
-- Daily Interactions : Regular feeding and care mechanics
-- Pet Status : Monitor your pet's hunger, energy, and happiness levels
-### Social Features
-- Leaderboard : Compete with other learners
-- Profile Management : Customize your profile and track achievements
-- Course Sharing : Share your created courses with others
-## Technical Stack 💻
-### Core Technologies
+Mind-Craft is a gamified learning platform designed for any student to master AI and computer science concepts. The platform makes learning interactive, fun, and rewarding through various features like quizzes, flashcards, and a virtual pet system.
+
+## Features
+
+- **Interactive Learning**: Engage with various course materials through different learning methods
+- **Virtual Pet System**: Take care of a virtual pet that grows with your learning progress
+- **Points & Rewards**: Earn points and cash by completing courses and chapters
+- **Progress Tracking**: Monitor your learning progress with detailed statistics
+- **Leaderboard System**: Compete with other learners and track your ranking
+- **Flashcards**: Practice concepts using interactive flashcards
+- **Quiz System**: Test your knowledge through comprehensive quizzes
+
+## Project Structure
+- /app - Main application screens and navigation
+- /assets - Static assets (images, fonts, animations)
+- /components - Reusable React components
+- /config - Configuration files (Firebase, AI models)
+- /constant - Constants and options
+- /context - React Context providers
+  
+## Technologies Used
 - React Native
-- Expo Router
-- Firebase (Authentication & Firestore)
-- Google Generative AI
-### Key Dependencies
-- Expo SDK
+- Expo
+- Firebase (Authentication, Firestore)
 - React Navigation
-- Firebase SDK
-- Lottie for animations
+- Expo Router
 - React Native Progress
-- Expo Image Picker
-## Getting Started 🚀
-1. Clone the repository
-```bash
-git clone [your-repository-url]
- ```
-```
+- Lottie Animations
 
-2. Install dependencies
+## Features in Detail
+
+### Course System
+- Create and manage courses
+- Track course progress
+- Interactive chapters with points system
+
+### Virtual Pet
+- Feed and interact with your pet
+- Pet grows based on learning progress
+- Earn rewards through pet care
+
+### Points and Rewards
+- Earn points by completing chapters
+- Convert points to in-app currency
+- Use currency for pet care and customisation
+
+### User Profile
+- Track personal progress
+- View achievements and statistics
+- Customise profile picture
+
+
+## Prerequisites
+
+Before you begin, ensure you have the following installed:
+- Node.js (v14 or higher)
+- npm (Node Package Manager)
+- Expo Go app installed on your mobile device or Android Studio on your computer
+
+## Installation
+
+### Step 1: Project Setup
+1. Clone the repository:
 ```bash
-npm install
+git clone [https://github.com/Thanesha/Final-Project]
+cd Mind-Craft
  ```
 
-3. Start the development server
+### Step 2: Running on your mobile device:
+   1. Start the development server:
 ```bash
 npx expo start
- ```
-
-## Project Structure 📁
-- /app : Main application code and routes
-- /components : Reusable UI components
-- /assets : Images, fonts, and animations
-- /config : Configuration files (Firebase, AI models)
-- /constant : Constants and theme definitions
-- /context : React Context definitions
-## Contributing 🤝
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License 📄
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact 📧
-For any queries or suggestions, please open an issue in the repository.
+```
+  - Install Expo Go from your device's app store:
+    - Android Play Store
+  - Open Expo Go on your device
+  - Scan the QR code shown in your terminal
+  - The app will load on your device
+3. Alternative methods:
+   
+   - Press 'a' in the terminal to open on Android emulator
+   - Press 'w' in the terminal to open in web browser
