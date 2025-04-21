@@ -1,4 +1,4 @@
-# Mind-Craft Learning Platform
+# Mind-Craft - A Learning Platform with gamification features
 
 Mind-Craft is a gamified learning platform designed for any student to master AI and computer science concepts. The platform makes learning interactive, fun, and rewarding through various features like quizzes, flashcards, and a virtual pet system.
 
