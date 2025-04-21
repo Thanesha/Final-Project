@@ -60,12 +60,23 @@ Before you begin, ensure you have the following installed:
 - Expo Go app installed on your mobile device or Android Studio on your computer
 
 ## Installation
-
+### Core Dependencies
+```bash
+npm install @react-navigation/native @react-navigation/native-stack
+npm install expo-router expo-constants expo-linking expo-splash-screen expo-status-bar expo
+npm install firebase @google/generative-ai
+npm install react-native-progress lottie-react-native
+npm install react-native-safe-area-context
+npm install react-native-screens
+npm install expo-image-picker
+npm install expo-font
+```
 ### Step 1: Project Setup
 1. Clone the repository:
 ```bash
 git clone [https://github.com/Thanesha/Final-Project]
 cd Mind-Craft
+npm install
  ```
 
 ### Step 2: Running on your mobile device:
